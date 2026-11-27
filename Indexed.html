@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Susan's Rose Shop | Demo</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Georgia,serif;background:#fffaf5;color:#332b29}
+.demo{background:#263a32;color:#fff;text-align:center;padding:10px;font:12px Arial;letter-spacing:1px}
+header{padding:25px 15px;text-align:center;background:#263a32;color:#fff}
+header h1{font-size:35px;color:#ead7bd}
+header p{font:12px Arial;letter-spacing:3px;margin-top:8px}
+nav{background:#fff;padding:16px;text-align:center;position:sticky;top:0}
+nav a{color:#5b3b42;text-decoration:none;margin:0 12px;font:14px Arial}
+.hero{min-height:380px;background:linear-gradient(120deg,#442b32,#95616b);color:white;display:flex;align-items:center;justify-content:center;text-align:center;padding:35px}
+.hero h2{font-size:clamp(35px,7vw,58px);margin-bottom:15px}
+.hero p{font:16px Arial;line-height:1.7}
+section{padding:55px 7%;text-align:center}
+section h2{font-size:32px;color:#69434a;margin-bottom:12px}
+.sub{font:14px Arial;color:#786d67;margin-bottom:30px}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:22px}
+.card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 5px 20px #00000012;text-align:left}
+.flower{height:180px;display:flex;align-items:center;justify-content:center;font-size:75px;background:linear-gradient(135deg,#f5e2df,#ead8c6)}
+.card h3{padding:14px 14px 5px;color:#69434a}
+.card p{padding:0 14px 15px;font:14px Arial;color:#776a65}
+.price{color:#91603f;font-weight:bold}
+.about{background:#f3e9df;line-height:1.8;font:16px Arial;color:#625750}
+.contact{background:#263a32;color:white}
+.contact h2{color:#ead7bd}
+.contact p{line-height:2;font:15px Arial}
+.btn{display:inline-block;margin-top:20px;padding:14px 24px;background:#c69b70;color:#fff;text-decoration:none;border-radius:30px;font:14px Arial}
+footer{background:#1d2b25;color:#e8d8c6;text-align:center;padding:25px;font:13px Arial;line-height:2}
+@media(max-width:500px){nav a{margin:0 6px;font-size:12px}section{padding:40px 5%}}
+</style>
+</head>
+<body>
+
+<div class="demo">DEMO WEBSITE — NOT THE OFFICIAL SHOP WEBSITE</div>
+
+<header>
+<h1>Sushan's Rose Shop</h1>
+<p>FLOWERS FOR EVERY BEAUTIFUL MOMENT</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#products">Flowers</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+<div>
+<h2>Make Every Moment Bloom</h2>
+<p>Beautiful flowers. Thoughtfully arranged.<br>
+For every special moment in your life.</p>
+<a class="btn" href="#products">Explore Collection</a>
+</div>
+</div>
+
+<section id="products">
+<h2>Our Flower Collection</h2>
+<p class="sub">A sample collection — prices are placeholders.</p>
+<div class="products">
+
+<div class="card">
+<div class="flower">🌹</div>
+<h3>Classic Red Roses</h3>
+<p>Elegant red rose bouquet<br><span class="price">₹499 (Sample)</span></p>
+</div>
+
+<div class="card">
+<div class="flower">💐</div>
+<h3>Pink Rose Bouquet</h3>
+<p>Beautiful pink floral arrangement<br><span class="price">₹599 (Sample)</span></p>
+</div>
+
+<div class="card">
+<div class="flower">🤍</div>
+<h3>White Rose Bouquet</h3>
+<p>Simple and elegant white roses<br><span class="price">₹549 (Sample)</span></p>
+</div>
+
+<div class="card">
+<div class="flower">🌷</div>
+<h3>Mixed Flower Bouquet</h3>
+<p>Colourful flowers for celebrations<br><span class="price">₹699 (Sample)</span></p>
+</div>
+
+</div>
+</section>
+
+<section class="about" id="about">
+<h2>Flowers for Every Occasion</h2>
+<p>From birthdays and anniversaries to celebrations and thoughtful gifts, flowers make every moment special.</p>
+<p>This section can be updated with the shop's real story after approval.</p>
+</section>
+
+<section class="contact" id="contact">
+<h2>Let's Make Someone Smile</h2>
+<p>Interested in a beautiful bouquet?<br>
+Contact us to enquire about flowers and arrangements.</p>
+<p>Phone: [Shop Phone Number]<br>
+Address: [Shop Address]</p>
+<a class="btn" href="https://wa.me/910000000000" target="_blank">WhatsApp Enquiry (Demo)</a>
+<p style="font-size:11px;margin-top:15px">Replace the sample WhatsApp number before publishing.</p>
+</section>
+
+<footer>
+<strong>SHUSHANT'S ROSE SHOP</strong><br>
+Website concept created by Digital Nova<br>
+Technology with a Purpose.
+</footer>
+
+</body>
+</html>
